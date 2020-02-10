@@ -1,0 +1,21 @@
+<h1>Stupid Coaching</h1>
+
+<ul>
+  <li class=what-wrote><%= @question %>
+  </li>
+  <li class=who-wrote><em>--You</em>
+  </li>
+</ul>
+<ul>
+  <li class=what-wrote>
+    <%= @answer %>
+  </li>
+  <li class=who-wrote>
+   <em>--Your coach</em>
+  </li>
+</ul>
+
+<%= link_to "Ask a new question", ask_path %>
+
+
+<!-- TODO : display the question you ask your coach as well as his answer.
